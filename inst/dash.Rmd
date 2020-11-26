@@ -1,0 +1,55 @@
+---
+title: "Untitled"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+Page 1
+=====================================
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+plot(1:10)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+
+```
+
+### Chart C
+
+```{r}
+
+```
+
+Page 2 {.storyboard}
+===================================== 
+
+### Acessar
+
+Isso é a explicação do meu web scraper1
+
+
+### Replicar
+
+Isso é a explicação do meu web scraper2
+
+
+### Iterar
+
+Isso é a explicação do meu web scraper3
